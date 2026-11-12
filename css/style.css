@@ -788,7 +788,7 @@ h1, h2, h3, h4, strong, .since b, .step::before { font-feature-settings: "lnum" 
 
   /* ---------- sticky action bar ---------- */
   .mobile-bar {
-    display: grid; grid-template-columns: 1fr auto auto; gap: 8px; align-items: center;
+    display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: center;
     position: fixed; left: 0; right: 0; bottom: 0; z-index: 120;
     padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
     background: rgba(6,13,31,.94); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
@@ -805,7 +805,7 @@ h1, h2, h3, h4, strong, .since b, .step::before { font-feature-settings: "lnum" 
   .mb-call b { display: block; font-size: .92rem; line-height: 1.25; white-space: nowrap; }
   .mb-wa, .mb-quote { flex-direction: column; gap: 2px !important; width: 62px; font-size: .64rem; }
   .mb-wa { background: #25d366; color: #fff; }
-  .mb-quote { border: 1px solid rgba(251,150,0,.5); color: var(--gold-light); background: rgba(251,150,0,.08); }
+  .mobile-bar .mb-quote { display: none; }
   .mb-wa svg { width: 22px; height: 22px; } .mb-quote svg { width: 20px; height: 20px; }
 
   /* ---------- header + menu ---------- */
@@ -953,6 +953,7 @@ h1, h2, h3, h4, strong, .since b, .step::before { font-feature-settings: "lnum" 
 }
 @media (max-width: 560px) { .ia-trust { display: none; } }
 @media (min-width: 561px) and (max-width: 900px) { .ia-trust .lantern { height: 110px; opacity: .6; } .ia-trust .lantern.l1 { left: 1%; } .ia-trust .lantern.l3 { right: 1%; } }
+@media (max-width: 900px) { body.home-page .hero-center .hero-actions .btn-gold { display: none; } }
 .contact-grid > *, .info-item > div { min-width: 0; }
 .info-item a, .info-item div { overflow-wrap: anywhere; }
 @media (max-width: 900px) { .ht-call { display: none; } }
@@ -977,7 +978,7 @@ h1, h2, h3, h4, strong, .since b, .step::before { font-feature-settings: "lnum" 
     -webkit-text-fill-color: currentColor;
   }
 
-  body.home-page .hero-center { padding: 116px 0 24px; }
+  body.home-page .hero-center { padding: 96px 0; }
   body.home-page .hero-center .tag { letter-spacing: .06em; line-height: 1.5; }
   body.home-page .hero-center h1 {
     font-size: clamp(1.9rem, 8.5vw, 2.2rem);
