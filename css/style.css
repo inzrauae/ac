@@ -978,7 +978,12 @@ h1, h2, h3, h4, strong, .since b, .step::before { font-feature-settings: "lnum" 
     -webkit-text-fill-color: currentColor;
   }
 
-  body.home-page .hero-center { padding: 96px 0; }
+  /* fit hero to the visible screen: below the header (~70px), above the sticky call bar (~78px) */
+  body.home-page .hero-slider {
+    min-height: calc(100vh - 78px);
+    min-height: calc(100svh - 78px - env(safe-area-inset-bottom));
+  }
+  body.home-page .hero-center { padding: 98px 0 32px; justify-content: center; }
   body.home-page .hero-center .tag { letter-spacing: .06em; line-height: 1.5; }
   body.home-page .hero-center h1 {
     font-size: clamp(1.9rem, 8.5vw, 2.2rem);
