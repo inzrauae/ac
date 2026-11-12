@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 170" fill="none" stroke="#d9ac55" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+  <!-- ground -->
+  <path d="M0 168h400"/>
+  <!-- left minaret -->
+  <path d="M42 168V58h14v110"/>
+  <path d="M38 58h22M38 92h22M40 58l9-30 9 30"/>
+  <path d="M49 28v-8"/><circle cx="49" cy="17" r="2.5"/>
+  <path d="M46 76v-6c0-3 3-5 3-5s3 2 3 5v6M46 124v-8c0-3 3-5 3-5s3 2 3 5v8"/>
+  <!-- right minaret -->
+  <path d="M344 168V58h14v110"/>
+  <path d="M340 58h22M340 92h22M342 58l9-30 9 30"/>
+  <path d="M351 28v-8"/><circle cx="351" cy="17" r="2.5"/>
+  <path d="M348 76v-6c0-3 3-5 3-5s3 2 3 5v6M348 124v-8c0-3 3-5 3-5s3 2 3 5v8"/>
+  <!-- main hall -->
+  <path d="M84 168v-62h232v62"/>
+  <path d="M80 106h240"/>
+  <!-- main dome on drum -->
+  <path d="M146 106V96h108v10"/>
+  <path d="M150 96c-4-34 26-48 50-66 24 18 54 32 50 66"/>
+  <path d="M200 30v-12"/>
+  <path d="M203 6a7 7 0 1 0 0 12 5.5 5.5 0 1 1 0-12z" fill="#d9ac55" stroke="none"/>
+  <!-- side domes -->
+  <path d="M96 106c0-20 12-28 22-32 10 4 22 12 22 32"/><path d="M118 74v-8"/>
+  <path d="M260 106c0-20 12-28 22-32 10 4 22 12 22 32"/><path d="M282 74v-8"/>
+  <!-- main door -->
+  <path d="M184 168v-30c0-10 8-16 16-22 8 6 16 12 16 22v30"/>
+  <path d="M176 168v-34c0-14 12-22 24-28 12 6 24 14 24 28v34"/>
+  <!-- windows -->
+  <path d="M100 152v-18c0-6 5-9 8-11 3 2 8 5 8 11v18zM132 152v-18c0-6 5-9 8-11 3 2 8 5 8 11v18zM252 152v-18c0-6 5-9 8-11 3 2 8 5 8 11v18zM284 152v-18c0-6 5-9 8-11 3 2 8 5 8 11v18z"/>
+  <path d="M160 100v-4M174 100v-4M188 100v-4M212 100v-4M226 100v-4M240 100v-4"/>
+</svg>
